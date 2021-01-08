@@ -3,7 +3,7 @@
 
 **Systems Development - ETEC Professor Camargo Aranha**
 
-    Systems Development Course integrated to high school, the main subjects being covered:
+    Systems Development Course, the main subjects being covered:
 
 - Database
 - Web Programming
