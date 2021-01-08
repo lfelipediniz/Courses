@@ -13,7 +13,7 @@
 
 **TypeScript and JavaScript, basic to advanced - taught by Luiz Otávio Miranda**
 
-    Learning in this course teaches:
+    Learning in this course is:
 
 - Basic, Functional and Object Oriented JavaScript (ES6 +, front-end and back-end)
 - TypeScript - a JavaScript superset with static typing (front-end and back-end)
