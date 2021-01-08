@@ -35,6 +35,18 @@
 - Design Patterns - Design Patterns (Bonus)
 - NestJS + Strapi (with SSR and SSG)
 
+~~~javascript
+Esta é uma linha de código em Javascript.
+~~~
+
+~~~php
+Esta é uma linha de código em PHP.
+~~~
+
+~~~html
+Esta é uma linha de código em HTML.
+~~~
+
 **React Native - The Practical Guide  - taught by Academind, Maximilian Schwarzmüller**
 
     This course was completely updated and now does not only cover the latest version of React Native 
