@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 100%; /* Alterando a medida padrão */
+}
+
+body {
+    height: 100vh;
+    color:white;
+    margin: auto;
+}
+
+body, input, button, textarea {
+    /*font-size:18px;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1;
+    font-weight: 400;*/
+    font: 400 18px/1 'Nunito', sans-serif;
+    
+}
+
+#page-landing{
+
+    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    text-align: center;
+    min-height: 100vh;
+}
+
+/*Animação (Keyframes)*/
+
+@keyframes up { 
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.up {
+    animation-name: up;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+.header {
+    animation-delay: 50ms;
+    
+}
+
+.location {
+    animation-delay: 100ms;
+}
+
+.content h2 {
+    animation-delay: 150ms;
+}
+
+.visit p {
+    animation-delay: 200ms;
+}
+
+.visit a {
+    animation-delay: 250ms;
+}
+
+.visit a:hover {
+    background-color: #ffbb00;
+
+}
+
+/*Page-landing and Box-container*/
+
+.page-landing {
+    background: linear-gradient(329.54deg, rgb(70, 170, 228) 0%, rgb(71, 204, 209) 100%);
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.location, h2, .visit p {
+    height: 16vh;
+}
+
+.visit a {
+    width: 6rem;
+    height: 6rem;
+    background: #ffd666;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: background 200ms;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
