@@ -1,0 +1,16 @@
+1-Criar um script em PHP para mostrar o fatorial de qualquer numero digitado no formulario(5.0)
+
+exemplo: Se for digitado o numero  5.
+
+O resultado do fatorial do numero  5! = 1 x 2 x 3 x 4 x 5 = 120.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+2-Usando a expressão for, elabore um contador de 1 até 20, cuja resposta deverá aparecer no navegador de forma sequencial, separados por vírgula. (5.0)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+TODOS O EXERCICIOS POR FAVOR UTILIZAR FORMULARIO PARA ENTRADA DE DADOS E UM AQUIVO PHP PARA A SAIDA DE DADOS, SEGUIR O EXEMPLO QUE ESTÁ NO MATERIAL.

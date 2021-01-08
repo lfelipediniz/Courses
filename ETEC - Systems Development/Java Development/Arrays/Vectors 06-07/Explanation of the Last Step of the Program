@@ -1,0 +1,2 @@
+The last step of the program uses the following logic:
+The variable "i" (which represents the position of the vector) will do the reverse path, that is, it will start at the last vector and end at the first.

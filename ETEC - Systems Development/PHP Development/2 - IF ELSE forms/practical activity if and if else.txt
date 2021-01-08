@@ -1,0 +1,41 @@
+ATIVIDADE PRATICA DE PWII-DECISÃO COMPOSTA IF/ELSE
+
+1-Faça um programa em PHP que leia um número qualquer e informar se este é maior que 10.(2,0)
+
+2-Elabore um programa em PHP para testar se uma senha digitada é igual a “batatafrita”. Se a senha estiver correta escreva “Acesso permitido”, do contrario emita a mensagem “Você não tem acesso ao sistema”.(2,0)
+
+
+3-Crie um programa no PHP que calcule a multa paga por um pescador que ultrapassar a quantidade de quilos estabelecida por lei. A saber:(2,0)
+-A quantidade de peixe por pessoa é 50 kg.
+-A multa por quilo excedente é R$4,00.
+
+
+4-Faça um programa em PHP que o usuário digite a idade, se a for maior ou igual a 16 mostrar a mensagem "pode dirigir" senão "não pode dirigir".(2,0)
+
+
+5-Crie um programa em PHP que receba um número qualquer e verifique e apresente se esse número é par ou ímpar.(2,0)
+
+OBS.:Para fazer esse programa tem que usar o operador matematico %(resto de divisão)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+TODOS O EXERCICIOS POR FAVOR UTILIZAR FORMULARIO PARA ENTRADA DE DADOS E UM AQUIVO PHP PARA A SAIDA DE DADOS, SEGUIR O EXEMPLO QUE ESTÁ NO MATERIAL.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Por favor se quiser usar esse link para ajuda na resolução do exercícios pode usar, lembrando esse link é só para pesquisa e ajuda para resolver os exercícios.
+
+http://excript.com/php/numeros-pares-impares-php.html
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Por favor entregar dia 15/07 no horario de aula mandar todos exercicios até o exercicio 1, compactado na guia tarefas que será aberto em breve.
+
+critérios de avaliação
+
+acertos  menção
+1 a 4     I
+5         R
+6,7 e 8   B
+9 e 10    MB
+
+
+

@@ -1,0 +1,83 @@
+Instruções
+CRIE OS CÓDIGOS EM PHP
+
+
+
+1-Criar um script em PHP para mostrar o fatorial de qualquer numero digitado no formulario(3.0)
+
+exemplo: Se for digitado o numero  5.
+
+O resultado do fatorial do numero  5! = 1 x 2 x 3 x 4 x 5 = 120.
+
+
+
+OBS.:FAZER ESSE EXERCICIO USANDO WHILE.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+2-Ler um valor inteiro qualquer, e escrever o resultado da tabuada desse valor digitado.(3.0)
+
+
+exemplo: Se for digitado o numero  5.
+
+O resultado da tabuada  é:
+
+
+
+5x1=5
+
+5x2=10
+
+5x3=15
+
+5x4=20
+
+5x5=25
+
+5x6=30
+
+5x7=35
+
+5x8=40
+
+5x9=45
+
+5x10=50.
+
+
+
+OBS.:FAZER ESSE EXERCICIO USANDO DO/WHILE.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+3-Ler um número inteiro n. Escrever a soma de todos os números de 1 até n (2,0)
+
+
+
+OBS.:FAZER ESSE EXERCICIO USANDO DO/WHILE.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+4-Ler um número inteiro n. Escrever a soma de todos os números de 1 até n (2,0)
+
+
+
+OBS.:FAZER ESSE EXERCICIO USANDO WHILE.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+TODOS O EXERCICIOS POR FAVOR UTILIZAR FORMULARIO PARA ENTRADA DE DADOS E UM AQUIVO PHP PARA A SAIDA DE DADOS, SEGUIR O EXEMPLO QUE ESTÁ NO MATERIAL.
+
+Por favor entregar dia 02/10 no horario de aula mandar todos exercicios, compactado na guia tarefas.
+
+critérios de avaliação
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Ano de nascimento</title>
+
+    <link rel="stylesheet" href="textoanimado.css">
+    <link rel="stylesheet" href="csshome.css">
+
+
+
+<div class="right">
+        
+        <img src="Imagens/l.gif">
+        
+</div>
+
+    </head>
+
+<body>
+
+
+    <h1>"Eu vou descobrir sua idade, Me TESTE!"</h1>
+
+<script>
+
+//animação texto
+
+  function typeWriter(elemento) {
+
+    const textoArray = elemento.innerHTML.split('');
+
+    elemento.innerHTML = '';
+
+    textoArray.forEach((letra, i) => {
+
+      setTimeout(() => elemento.innerHTML += letra, 75 * i);
+
+    });
+  }
+
+const titulo = document.querySelector('h1');
+typeWriter(titulo);
+
+</script>
+
+<div class="center">
+
+	
+    <!-- Escrever as Informações-->
+
+    <center>
+        <section id="secao">
+            <div id="idade"> 
+                <p>
+                    <h3>Digite o ano do seu nascimento: </h3>
+                    <input id="input-1" type="number" name="Ano de Nascimento" min="1920">
+                </p>
+            </div>
+
+            <div id="sexo">
+                <p>
+                   <h3></h3> Selecione seu sexo:
+                    <input type="radio" name="radio-sexo" id="masculino" checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="radio-sexo" id="feminino">
+                    <label for="feminino">Feminino</label>
+                </p>
+            </div>
+
+            <div id="confirmar">
+                <input type="button" value="Confirmar" onclick="confirmar()">
+            </div>
+        </center>
+        </section>
+
+    </br>
+
+        <div class="left">
+        <div id="resultado">
+        Após inserir os dados, o resultado será mostrado aqui!
+        </div>
+        
+
+
+        <div id="div-imagem">
+
+            <img id="imagem" src="Imagens/duvida.gif"> 
+
+        </div>
+    </div>
+
+       
+   
+
+</div>
+
+        <script src="proghome.js"></script>
+
+
+
+</body>
+</html>

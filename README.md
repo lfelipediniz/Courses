@@ -1,6 +1,5 @@
 
-<br/>
-<h1 align="center"># 🧠 **The courses I'm currently taking are:**</h1>
+<h1 align="center"> 🧠 The courses I'm currently taking are:</h1>
 
 **Systems Development - ETEC Professor Camargo Aranha**
 

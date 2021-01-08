@@ -1,0 +1,7 @@
+Instructions
+Develop a program using the JOPtionPane "windows" where
+Ask for username
+Ask user age
+Request the user's address
+After that, a window should appear showing the data above and asking the user to confirm that the data is the same
+If not, show a message with the warning "data not confirmed", and if the user confirms, a window where the message "Welcome (user name)" appears Use the video and code from the previous class (17-08) as a base

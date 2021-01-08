@@ -1,0 +1,42 @@
+ATIVIDADE PRATICA DE PWII-DECISÃO IF ENCADEADO E OPERADORES LOGICOS
+
+1-O IMC – Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar
+umaindicação sobre a condição de peso de uma pessoa adulta. A fórmula é IMC = peso / ( altura )2
+
+Elabore um programa em PHP que leia o peso e a altura de um adulto e mostre sua condição de acordo com a tabela abaixo.(4.0)
+IMC em adultos Condição
+Abaixo de 18,5 Abaixo do peso
+Entre 18,5 e 25 Peso normal
+Entre 25 e 30 Acima do peso
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+2-Faça um programa em PHP que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “F” e estado civil seja “CASADA”, colocar mensagem "cadastrada com sucesso". (2.0)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+3-Crie um programa que classifique os nadadores nas categorias de acordo com sua idade:(4.0)
+- Infantil A – de 5 à 7 anos;
+- Infantil B – de 8 à 10 anos;
+- Juvenil A – de 11 à 13 anos;
+- Juvenil B - de 14 à 17 anos;
+- Senior – a partir de 18 anos.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+TODOS O EXERCICIOS POR FAVOR UTILIZAR FORMULARIO PARA ENTRADA DE DADOS E UM AQUIVO PHP PARA A SAIDA DE DADOS, SEGUIR O EXEMPLO QUE ESTÁ NO MATERIAL.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Por favor entregar dia 28/08 no horario de aula mandar todos exercicios, compactado na guia tarefas que será aberto em breve.
+
+critérios de avaliação
+
+acertos  menção
+1 a 4     I
+5         R
+6,7 e 8   B
+9 e 10    MB
+
+
+
