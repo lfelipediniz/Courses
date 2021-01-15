@@ -22,7 +22,7 @@ const username = prompt('Type your name:')
 
     document.body.innerHTML += `The words of your name are: <strong>${username.split(" ")}</strong><br/><br/>`
 
-    document.body.innerHTML += `Your name in capital letters <strong>${username.toUpperCase()}</strong><br/><br/>`
+    document.body.innerHTML += `Your name in CAPS LOCK <strong>${username.toUpperCase()}</strong><br/><br/>`
 
     document.body.innerHTML += `Your name in lower case <strong>${username.toLowerCase()}</strong><br/><br/>`
 
