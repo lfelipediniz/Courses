@@ -1,9 +1,28 @@
+
 alert("Hello! I'm a JavaScript alert");
 
-    let n1 = prompt('Type a number');
-    let n2 = prompt('Type a number');
+//User interaction
 
-    let result = Number(n1) + Number(n2);
+const username = prompt('Type your name:')
 
-alert(`The answer is ${result}`); 
+//User name information
+    document.body.innerHTML += `<center>Your name is <strong>${username}</strong></center> <br/><br/>`
+
+    let nameNoSpace = username.replace(/ /g, "") // removing spaces
+
+    document.body.innerHTML += `Your name have <strong>${nameNoSpace.length}</strong> letters <br/><br/>`
+
+    document.body.innerHTML += `The second letter of your name is <strong>${username[1]}</strong> <br/><br/>`
+
+    document.body.innerHTML += `The first index of your name is <strong>${username.indexOf(username)}</strong><br/><br/>`
+
+    document.body.innerHTML += `The last index of your name is <strong>${username.length}</strong><br/><br/>`
+    
+    document.body.innerHTML += `The last 3 letters of your name are <strong>${username.slice(-3)}</strong><br/><br/>`
+
+    document.body.innerHTML += `The words of your name are: <strong>${username.split(" ")}</strong><br/><br/>`
+
+    document.body.innerHTML += `Your name in capital letters <strong>${username.toUpperCase()}</strong><br/><br/>`
+
+    document.body.innerHTML += `Your name in lower case <strong>${username.toLowerCase()}</strong><br/><br/>`
 
