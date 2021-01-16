@@ -12,3 +12,4 @@ const text = document.getElementById("text");
     text.innerHTML += `${userNumber} rounding down is ${Math.ceil(userNumber)}</p>`;
     text.innerHTML += `${userNumber} rounding up is ${Math.floor(userNumber)}</p>`;
     text.innerHTML += `${userNumber} with 2 decimal places: ${userNumber.toFixed(2)}</p>`;
+    
