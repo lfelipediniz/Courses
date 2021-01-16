@@ -38,8 +38,3 @@ console.log('==================================================')
 
     console.log(aString.toUpperCase()); // all caps
     console.log(aString.toLowerCase()); // all in tiny
-
-
-
-
-
