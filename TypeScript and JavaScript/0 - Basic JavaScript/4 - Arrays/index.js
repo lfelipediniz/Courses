@@ -9,5 +9,6 @@ students.unshift('Percival'); // this function allows adding more data to the ar
 const removed = students.pop(); //removes the last data from the array
 students.shift(); //removes the first data from the array
 
+
 console.log(students);
 console.log(`Is array? ${students instanceof Array} `);
