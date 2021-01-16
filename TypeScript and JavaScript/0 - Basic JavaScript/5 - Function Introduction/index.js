@@ -4,7 +4,7 @@
 
     function sum(x, y) {
 
-         result = x + y;
+        result = x + y;
 
         return result;
     }
