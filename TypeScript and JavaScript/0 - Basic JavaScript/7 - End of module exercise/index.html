@@ -8,29 +8,54 @@
 
 <style>
 
-    h3 {
+    p {
         font-family: "Lucida Console", "Courier New", monospace;
         color: white;
-        display:contents;
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
     }
 
+    form {
+
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        padding: 3;
+        margin: 10px;
+    }
+
+    button {
+        margin-top: 10px;
+        width: 60%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
 </style>
 
 <body style="background-color:rgb(21, 21, 21);">
 
     <center>
 
-        <form class="form" action="" method="GET">
+        <table  border="1" bordercolor=white>
+        <tr> <td>
+            <form class="form" action="" method="GET">
 
-            <h3> Name:<input type="text" class= "name"</h3>
-            <h3> Surname:<input type="text" class= "surname"</h3>
-            <h3> Height:<input type="text" class= "height"</h3>
-            <h3> Weight:<input type="text" class= "weight"</h3>
-            <button><font color= black >Submit</font></button>
+                <p> Name:<input type="text" class= "name"></p>
+                <p> Surname:<input type="text" class= "surname"></p>
+                <p> Height:<input type="text" class= "height"></p>
+                <p> Weight:<input type="text" class= "weight"></p>
+                <button><font color= black >Submit</font></button>
 
-        </form>
+            </form>
+
+        </tr></td>
+    </table>
 
     </center>
+
+    <div class="result"></div>
     
     <script src="js/script.js"></script>
 
