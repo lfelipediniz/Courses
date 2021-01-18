@@ -26,7 +26,7 @@ const formInformation = () => {
 
             console.log(peopleArray);
 
-            result.innerHTML += `<p>${name.value} ${surname.value} ${height.value} ${weight.value}</p>`;
+            result.innerHTML += `<p>${name.value} ${surname.value} has ${height.value} ft of height and ${weight.value} lb of weight</p>`;
         
         }
 
