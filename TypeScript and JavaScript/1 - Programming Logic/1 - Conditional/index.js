@@ -16,4 +16,3 @@ else if (hour >= 18 && hour <= 23){
 }
 
 else console.log('You put an invalid hour!');
-
