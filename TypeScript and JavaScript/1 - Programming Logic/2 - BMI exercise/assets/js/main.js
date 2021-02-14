@@ -40,11 +40,11 @@ const formInformation = () => {
 
             // report errors
 
-            if (bmi < 0.01) alert('Please enter a valid value!');
-
-            else if (!weight.value) alert('Invalid Weight!');
+            if (!weight.value) alert('Invalid Weight!');
 
             else if (!height.value) alert('Invalid Height!');
+
+            else if (bmi < 0.01) alert('Please enter a valid value!');
 
             else {
 
