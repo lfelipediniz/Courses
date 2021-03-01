@@ -3,7 +3,7 @@
 
 **Systems Development - ETEC Professor Camargo Aranha**
 
-    Systems Development Course, the main subjects being covered:
+ ##### The main subjects being covered:
 
 - Database
 - Web Programming
@@ -13,7 +13,7 @@
 
 **TypeScript and JavaScript, basic to advanced - taught by Luiz Otávio Miranda**
 
-    Learning in this course is:
+ ##### Learning in this course is:
 
 - Basic, Functional and Object Oriented JavaScript (ES6 +, front-end and back-end)
 - TypeScript - a JavaScript superset with static typing (front-end and back-end)
@@ -37,8 +37,7 @@
 
 **React Native - The Practical Guide  - taught by Academind, Maximilian Schwarzmüller**
 
-    This course was completely updated and now does not only cover the latest version of React Native 
-    but also includes refreshers on JavaScript & React.js!
+ ##### This course was completely updated and now does not only cover the latest version of React Native, but also includes refreshers on JavaScript & React.js
  
 - Build native mobile apps with JavaScript and React
 - Dive deeper into React Native
