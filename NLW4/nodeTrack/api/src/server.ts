@@ -1,4 +1,6 @@
+import 'reflect-metadata';
 import express from 'express'; // Help create a server
+import './database'
 
 const app = express();
 

@@ -6,4 +6,10 @@ yarn add @types/express -D
 
 yarn add typescript -D
 
+yarn add typeorm reflect-metadata
+
+yarn add sqlite3
+
 I used insomnia to work with methods other than GET
+
+
