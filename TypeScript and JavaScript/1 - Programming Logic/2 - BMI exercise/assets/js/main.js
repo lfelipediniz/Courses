@@ -19,7 +19,6 @@ const formInformation = () => {
 
             });
 
-
             console.log(info);
 
             let bmi = weight.value / Math.pow(height.value, 2);
@@ -51,8 +50,6 @@ const formInformation = () => {
                 result.innerHTML += `&nbsp; &nbsp; <font size=5> Your BMI is <font color=#1EE32B>${bmi.toFixed(2)}</font> (${healthAlert})</font></br></br>`; 
             }
         }
-
-
 
     form.addEventListener('submit', eventReceiver)
     
