@@ -10,7 +10,6 @@
 
     box-sizing: border-box;
     outline: none;
-
 }
 
 body {
@@ -48,13 +47,11 @@ form input {
     font-size:24px;
     height: 50px;
     padding: 0 20px;
-
 }
 
 form input:focus {
 
     outline: 1px solid var(--primary-color);
-
 }
 
 form button {
@@ -66,7 +63,6 @@ form button {
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
-
 }
 
 form button:hover {
@@ -86,7 +82,6 @@ section div {
 
     display: flex;
     justify-content: space-between;
-
 }
 
 .bmi-table {
@@ -94,7 +89,6 @@ section div {
     display: flex;
 
     flex-direction: column;
-
 }
 
 .result-table {
@@ -110,11 +104,9 @@ section div {
 section div div p {
 
     margin: 2px;
-
 }
 
 p {
 
     font-size: 12pt;
-
 }
