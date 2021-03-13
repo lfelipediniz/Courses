@@ -6,7 +6,6 @@ import javax.swing.JOptionPane;
 
 public class Pessoa {
 
-
     public String nome;
 
     public int idade;
@@ -14,7 +13,6 @@ public class Pessoa {
     public String generoMusical;
 
     public String genero;
-
 
 public void etaria(){
 
@@ -32,7 +30,6 @@ JOptionPane.showMessageDialog(null, (nome + " é um adulto de " + idade + " anos
 JOptionPane.showMessageDialog(null, (nome + " é um idoso de " + idade + " anos"), nome, JOptionPane.PLAIN_MESSAGE);}
 
 	}
-
 
 public void musica(){
 
