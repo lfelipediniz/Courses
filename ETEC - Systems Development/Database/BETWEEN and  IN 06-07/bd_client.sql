@@ -17,7 +17,6 @@
 
  );
  
- 
 insert into cliente(nome, idade, cidade, estado) values ('Vanderley Santana', 25 , 'São Paulo','SP');
 insert into cliente(nome, idade, cidade, estado) values ('Jaziscreuda de Bonácio', 30 , 'São Paulo','SP');
 insert into cliente(nome, idade, cidade, estado) values ('Alberto Aisteimildo', 25 , 'Rio de Janeiro','RJ');
