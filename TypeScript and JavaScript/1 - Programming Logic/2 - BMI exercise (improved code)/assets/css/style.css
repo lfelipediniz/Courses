@@ -26,7 +26,7 @@ body {
 
 .container {
     max-width: 450px;
-    margin: 50px auto;
+    margin: 10px auto;
     background-color:#2B292B;
     padding: 20px;
     border-radius: 10px;
@@ -124,4 +124,6 @@ p {
 
 #result {
     color: black;
+    display: flex;
+    justify-content: flex-end;
 }
