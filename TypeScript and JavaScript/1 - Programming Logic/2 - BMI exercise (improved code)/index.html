@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
-
+ 
 <body>
 
     <section class="container">
@@ -40,14 +40,15 @@
         
          <hr></hr></br>
 
-         <form action="/" class="form">
+         <form action="/" id="bmi-form">
         
             <label for="weight">Weight</label>
-            <input type="text" id="weight" name="weight">
+
+            <input type="number" id = "weight" step="0.01"></p>
 
             <label for="height">Height</label>
 
-            <input type="text" id="height" name="height">
+            <input type="number" id = "height" step="0.01"></p>
 
             <button type="submit">Submit</button>
             
@@ -55,7 +56,7 @@
 
     </section>
 
-  <div class="result"></div>
+  <div id="result"></div>
 
     <script src="./assets/js/main.js"></script>
 

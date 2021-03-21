@@ -4,7 +4,7 @@ const formInformation = () => {
     const result = document.querySelector('.result');
 
     const info = [];
-
+ 
         function eventReceiver (event) {
         
         event.preventDefault(); // prevent page loading behavior when submitting the form
