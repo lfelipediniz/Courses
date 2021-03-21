@@ -10,7 +10,6 @@
 
     box-sizing: border-box;
     outline: none;
-
 }
 
 body {
@@ -23,7 +22,6 @@ body {
     color: white;
 
     background: var(--primary-color)
-
 }
 
 .container {
@@ -32,7 +30,6 @@ body {
     background-color:#2B292B;
     padding: 20px;
     border-radius: 10px;
-    
 }
 
 form input, form label, form button {
@@ -40,7 +37,6 @@ form input, form label, form button {
     display: block;
     width: 100%;
     margin-bottom: 10px;
-
 }
 
 form input {
@@ -48,13 +44,11 @@ form input {
     font-size:24px;
     height: 50px;
     padding: 0 20px;
-
 }
 
 form input:focus {
 
     outline: 1px solid var(--primary-color);
-
 }
 
 form button {
@@ -66,19 +60,21 @@ form button {
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
-
 }
 
 form button:hover {
+
     background-color: var(--primary-color-darker);
 }
 
 h1{
+
     color:#3feb73;
     margin-bottom: 0;
 }
 
 .left{
+
     position: left;
 }
 
@@ -86,7 +82,6 @@ section div {
 
     display: flex;
     justify-content: space-between;
-
 }
 
 .bmi-table {
@@ -94,7 +89,6 @@ section div {
     display: flex;
 
     flex-direction: column;
-
 }
 
 .result-table {
@@ -104,17 +98,30 @@ section div {
     flex-direction: column;
 
     align-items: flex-end;
-
 }
 
 section div div p {
 
     margin: 2px;
-
 }
 
 p {
 
     font-size: 12pt;
 
+}
+
+.result-paragraph, .bad {
+
+    background: #3feb73;
+    padding: 10px 20px;
+}
+
+.bad {
+
+    background: rgb(255, 93, 93);
+}
+
+#result {
+    color: black;
 }

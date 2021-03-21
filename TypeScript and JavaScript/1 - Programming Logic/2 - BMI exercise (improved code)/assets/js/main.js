@@ -17,7 +17,9 @@ form.addEventListener('submit', function (e) {
 
     const BMILevel = getBMILevel(bMI);
 
-    console.log(bMI, BMILevel);
+    const msg = `Your BMI is ${bMI} (${BMILevel}).`;
+
+    setResult(msg, true);
 });
 
 // Calculating BMI
@@ -55,7 +57,7 @@ function createP () {
     return p;
 }
 
-
+//
 function setResult (msg, isValid){
 
     const result = document.querySelector('#result');
@@ -63,6 +65,10 @@ function setResult (msg, isValid){
     result.innerHTML = '';
 
     const p = createP();
+
+    if (isValid) p.classList.add('result-paragraph');
+
+    else  p.classList.add('bad');
 
     p.innerHTML = msg;
 
