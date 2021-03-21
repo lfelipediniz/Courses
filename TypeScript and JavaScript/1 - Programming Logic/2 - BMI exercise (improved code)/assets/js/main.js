@@ -57,7 +57,7 @@ function createP () {
     return p;
 }
 
-//
+// Check if the result is true
 function setResult (msg, isValid){
 
     const result = document.querySelector('#result');
