@@ -101,8 +101,8 @@ function formatDate(date) {
     const month = date.getMonth();
     const year = date.getFullYear();
     
-    const hour = date.getHours();
-    const min = date.getMinutes();
+    const hour = applyingZero(date.getHours());
+    const min =  applyingZero(date.getMinutes());
 
     const monthText = getMonthText(month);
 
