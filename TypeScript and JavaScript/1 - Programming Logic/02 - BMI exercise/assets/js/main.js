@@ -16,7 +16,6 @@ const formInformation = () => {
 
                 weight: weight.value,
                 height: height.value
-
             });
 
             console.log(info);
