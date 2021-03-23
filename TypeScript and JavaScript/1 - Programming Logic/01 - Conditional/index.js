@@ -1,9 +1,7 @@
+
 const hour = 12;
 
-if(hour <= 11){
-
-    console.log('Good Morning!');
-}
+if(hour <= 11) console.log('Good Morning!');
 
 else if(hour >= 12 && hour <= 17){
 
