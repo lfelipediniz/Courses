@@ -14,7 +14,6 @@ console.log(date1.toString());
 // most used format
 
 const date2 = new Date('2021-04-20 20:20:59.500');
-
 console.log(date2.toString());
 
 // Present time, considering the Timestamp
