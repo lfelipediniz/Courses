@@ -38,4 +38,5 @@ const date = new Date('2000-03-26 00:00:00');
 let dayWeek = date.getDay();
 
 const dayWeekText = getDayWeekText(dayWeek);
+
 console.log(dayWeek, dayWeekText);
