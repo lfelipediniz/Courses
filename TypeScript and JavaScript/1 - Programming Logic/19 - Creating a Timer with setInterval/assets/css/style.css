@@ -143,4 +143,6 @@ section div p button:first-child{
     margin-top: 10%;
 }
 
- 
+ .paused {
+     color: rgb(248, 122, 122);
+ }
