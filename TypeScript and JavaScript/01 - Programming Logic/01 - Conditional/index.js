@@ -1,4 +1,3 @@
-
 const hour = 12;
 
 if(hour <= 11) console.log('Good Morning!');
