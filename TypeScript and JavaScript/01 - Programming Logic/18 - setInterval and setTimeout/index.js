@@ -9,7 +9,6 @@ function showHour() {
 }
 
 // configure a time interval for the execution of a function
-
 const timer = setInterval(function() { 
 
     console.log(showHour());
@@ -17,7 +16,6 @@ const timer = setInterval(function() {
 }, 1000);
 
 // determines the amount of time the function will last
-
 setTimeout(function() {
 
     clearInterval(timer);
