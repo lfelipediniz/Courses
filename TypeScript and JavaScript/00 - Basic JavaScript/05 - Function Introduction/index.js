@@ -16,7 +16,7 @@ console.log(sum(2, 4));
     const root = function (n) {
 
         return n ** 0.5;
-    };
+    }
 
 console.log(root(9))
 
