@@ -1,5 +1,4 @@
 /*
-
 Write a function that receives a number and returns:
   
 number is divisible by 3 = Fizz
