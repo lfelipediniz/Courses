@@ -1,5 +1,4 @@
 // representing time in JS
-
 const threeHour = 60 * 60 * 3 * 1000;
 const oneDay = 60 * 60 * 24 * 1000;
 
