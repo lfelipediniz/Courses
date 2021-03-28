@@ -1,5 +1,4 @@
 // simple object creation
-
 const person1 = {
 
     name: 'Luiz Felipe',
