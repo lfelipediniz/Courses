@@ -28,7 +28,6 @@ try{
 } 
 
 catch(e) {
-
     // treat error
 }
 
