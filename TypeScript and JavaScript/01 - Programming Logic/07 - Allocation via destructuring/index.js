@@ -34,7 +34,6 @@ const {address: {street, homeNumber}} = person;
 console.log(street, homeNumber);
 
 // Using rest
-
 const {...rest} = person;
 
 console.log(`
