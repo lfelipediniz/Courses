@@ -79,6 +79,8 @@ function taskCreator(textInput) {
     if (el.classList.contains('delete')) {
 
         el.parentElement.remove();
+
+        saveTasks();
     }
  })
 
@@ -102,7 +104,26 @@ function saveTasks() {
     }
 
     // creating an array string, converted to JSON
-
     const JSONTasks = JSON.stringify(taskList);
-    console.log(JSONTasks);
+
+    // store information in the browser
+
+    localStorage.setItem('tasks', JSONTasks); // only stores string
 }
+
+function addSavedTasks() {
+
+    const tasks = localStorage.getItem('tasks');
+
+    // converting tasks back to Array
+
+    const taskList = JSON.parse(tasks);
+    
+    for (let task of taskList) {
+
+        taskCreator(task);
+    }
+}
+
+addSavedTasks();
+
