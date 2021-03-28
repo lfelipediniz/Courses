@@ -8,7 +8,6 @@ let  number2 = Math.floor(number1);
 
     console.log(`Rounding the number ${number1} to the nearest the result is ` + Math.round(number1));
 
-
 const numbers = [23, 0.64, 65, 645, 94, 454, 231]
 
     console.log(`The highest number in the sequence ${numbers} is ` + Math.max(...numbers));
