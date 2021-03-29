@@ -1,7 +1,0 @@
-{
-  "name": "IonicReactSpaceX",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
