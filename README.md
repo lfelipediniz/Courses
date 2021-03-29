@@ -3,7 +3,7 @@
 🧠 The courses I'm currently taking are </h1>
 
 <p align="center">
-   <img src="banner.jpg">
+   <img src="readmeImages/banner.jpg">
 </p>
 
 <p align="center">
