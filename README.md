@@ -6,21 +6,19 @@
    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_sk5cfBS--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/xndmxrfhliweofif9jty.png" style="max-width:100%;">
 </p>
 
-## **Systems Development - ETEC Professor Camargo Aranha**
-
 <p align="center">
+   
+### **Systems Development - ETEC Professor Camargo Aranha**
+
 <em>Technical course integrated to high school</em>
-</p>
 
 ### **TypeScript and JavaScript, basic to advanced - taught by Luiz Otávio Miranda**
 
-<p align="center">
 <em>Course focused on teaching javascript, typescript and derived technologies</em>
-</p>
 
 ### **React Native - The Practical Guide  - taught by Academind, Maximilian Schwarzmüller**
 
-<p align="center">
+
 <em>This course was completely updated and now does not only cover the latest
 version of React Native, but also includes refreshers on JavaScript
 & React.js
