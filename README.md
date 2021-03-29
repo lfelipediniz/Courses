@@ -5,9 +5,7 @@
 <p align="center">
    <img src="readmeImages/banner.jpg">
 </p>
-
-<p align="center">
-   
+ 
 ### **Systems Development - ETEC Professor Camargo Aranha**
 
 <em>Technical course integrated to high school</em>
@@ -23,4 +21,3 @@
 version of React Native, but also includes refreshers on JavaScript
 & React.js
 </em>
-</p>
