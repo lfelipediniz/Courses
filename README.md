@@ -8,16 +8,21 @@
 
 ## **Systems Development - ETEC Professor Camargo Aranha**
 
+<p align="center">
 <em>Technical course integrated to high school</em>
+</p>
 
 ### **TypeScript and JavaScript, basic to advanced - taught by Luiz Otávio Miranda**
 
+<p align="center">
 <em>Course focused on teaching javascript, typescript and derived technologies</em>
+</p>
 
 ### **React Native - The Practical Guide  - taught by Academind, Maximilian Schwarzmüller**
 
+<p align="center">
 <em>This course was completely updated and now does not only cover the latest
 version of React Native, but also includes refreshers on JavaScript
 & React.js
 </em>
-
+</p>
