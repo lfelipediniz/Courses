@@ -3,7 +3,7 @@
 🧠 The courses I'm currently taking are </h1>
 
 <p align="center">
-   <img src="readmeImages/banner.jpg">
+   <img src="@readmeImages/banner.jpg">
 </p>
  
 ### **Systems Development - ETEC Professor Camargo Aranha**
