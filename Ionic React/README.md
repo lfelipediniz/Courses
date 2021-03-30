@@ -6,7 +6,7 @@
    <img src="@readmeImages/ionic.png">
 </p>
 
-<em>I learned in this course</em>
+<em>The course offers:</em>
  
 - Create applications with Ionic 4
 - Create an image gallery with Zoom feature via Swiper API
