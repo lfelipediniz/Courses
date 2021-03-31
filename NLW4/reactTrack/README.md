@@ -4,5 +4,8 @@
 
 <p align="center">
    <img src="@readmeImages/nlw-react.png">
-</p>
+
  
+<h3 align="center">
+An event to take the next step in your evolution as a programmer or programmer.
+</h3>
