@@ -1,12 +1,11 @@
 
-<h1 align="center">
-🧠 Ionic React</h1>
+<h1 align="center">Ionic React</h1>
 
 <p align="center">
    <img src="@readmeImages/ionic.png">
 </p>
 
-<em>The course offers:</em>
+## <em>The [course](https://www.udemy.com/course/ionic-react-graphql/) offers:</em>
  
 - Create applications with Ionic 4
 - Create an image gallery with Zoom feature via Swiper API
