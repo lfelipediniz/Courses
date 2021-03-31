@@ -24,3 +24,10 @@
 - Build production and deploy
 - Overlay Components
 
+## The technologies used are:
+
+- Ionic 5
+- ReactJS
+- GraphQL
+- Apollo
+- API from SpaceX
