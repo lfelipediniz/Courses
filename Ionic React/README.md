@@ -5,7 +5,7 @@
    <img src="@readmeImages/ionic.png">
 </p>
 
-## <em>The [course](https://www.udemy.com/course/ionic-react-graphql/) offers:</em>
+## <em>The [course](https://www.udemy.com/course/ionic-react-graphql/) offers</em>
  
 - Create applications with Ionic 4
 - Create an image gallery with Zoom feature via Swiper API
@@ -23,7 +23,7 @@
 - Build production and deploy
 - Overlay Components
 
-## The technologies used are:
+## The technologies used are
 
 - Ionic 5
 - ReactJS
