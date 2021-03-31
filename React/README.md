@@ -6,7 +6,7 @@
    <img src="@readmeImages/react.png">
 </p>
 
-## <em>The course offers:</em>
+## <em>The [course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/) offers:</em>
  
 - Build powerful, fast, user-friendly and reactive web apps
 - Apply for high-paid jobs or work as a freelancer in one the most-demanded sectors you can find   in   web dev right now

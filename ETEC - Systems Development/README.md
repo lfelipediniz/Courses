@@ -7,7 +7,7 @@
 </p>
 
 
-## <em>The focus of the course is:</em>
+## <em>The focus of the [course](http://eteccamargoaranha.com.br/) is:</em>
 
 - Database
 - Web Programming
