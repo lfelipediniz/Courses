@@ -5,4 +5,4 @@
    <img src="@readmeImages/nlw.png">
 </p>
  
-## <em>The [course](https://nextlevelweek.com/inscricao/5) offers:</em>
+## The [course](https://nextlevelweek.com/inscricao/5) offers

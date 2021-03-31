@@ -5,7 +5,7 @@
    <img src="@readmeImages/ionic.png">
 </p>
 
-## <em>The [course](https://www.udemy.com/course/ionic-react-graphql/) offers</em>
+## The [course](https://www.udemy.com/course/ionic-react-graphql/) offers
  
 - Create applications with Ionic 4
 - Create an image gallery with Zoom feature via Swiper API

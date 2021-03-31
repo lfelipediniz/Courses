@@ -6,7 +6,7 @@
    <img src="@readmeImages/ts&js.png">
 </p>
 
-## <em>Learning in this [course](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/) is:</em>
+## Learning in this [course](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/) is
 
 Course focused on teaching javascript, typescript and derived technologies
 
