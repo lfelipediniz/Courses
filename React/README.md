@@ -13,3 +13,8 @@
 - Provide amazing user experiences by leveraging the power of JavaScript with ease
 - Learn React Hooks & Class-based Components
 
+## The technologies used are
+
+- incl Hooks
+- React Router
+- Redux
