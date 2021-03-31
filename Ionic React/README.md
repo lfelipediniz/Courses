@@ -25,7 +25,7 @@
 
 ## The technologies used are
 
-- Ionic 5
+- Ionic 4
 - ReactJS
 - GraphQL
 - Apollo
