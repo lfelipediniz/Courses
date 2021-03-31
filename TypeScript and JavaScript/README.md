@@ -6,8 +6,9 @@
    <img src="@readmeImages/ts&js.png">
 </p>
 
-<em>Learning in this course is:</em>
-<em>Course focused on teaching javascript, typescript and derived technologies</em>
+## <em>Learning in this course is:</em>
+
+Course focused on teaching javascript, typescript and derived technologies
 
 - Basic, Functional and Object Oriented JavaScript (ES6 +, front-end and back-end)
 - TypeScript - a JavaScript superset with static typing (front-end and back-end)
