@@ -1,50 +1,50 @@
 // Factory function 
 // Constructor function 
 
-function criaPessoa(nome, surname, a, p) {
+function personCreator(name, surname, a, p) {
 
     return {
 
-      nome,
+      name,
       surname,
   
       // Getter
 
-      get nomeCompleto() {
+      get fullName() {
 
-        return `${this.nome} ${this.surname}`;
+        return `${this.name} ${this.surname}`;
       },
   
       // Setter
 
-      set nomeCompleto(valor) {
+      set fullName(value) {
 
-        valor = valor.split(' ');
+        value = value.split(' ');
 
-        this.nome = valor.shift();
-        this.surname = valor.join(' ');
+        this.name = value.shift();
+        this.surname = value.join(' ');
       },
   
-      fala(assunto = 'falando sobre NADA') {
+      sppech(subjectMatter = 'talking about NOTHING') {
           
-        return `${this.nome} está ${assunto}.`;
+        return `${this.name} is ${subjectMatter}.`;
       },
   
-      altura: a,
-      peso: p,
+      height: a,
+      weight: p,
   
       // Getter
       
       get imc() {
-        const indice = this.peso / (this.altura ** 2);
+        const indice = this.weight / (this.height ** 2);
         return indice.toFixed(2);
       }
     };
   }
   
-  const p1 = criaPessoa('Luiz', 'Otávio', 1.8, 80);
-  const p2 = criaPessoa('João', 'Otávio', 1.90, 57);
-  const p3 = criaPessoa('Junior', 'Otávio', 1.5, 110);
+  const p1 = personCreator('Luiz', 'Otávio', 1.8, 80);
+  const p2 = personCreator('João', 'Otávio', 1.90, 57);
+  const p3 = personCreator('Junior', 'Otávio', 1.5, 110);
   
   console.log(p1.imc);
   console.log(p2.imc);
