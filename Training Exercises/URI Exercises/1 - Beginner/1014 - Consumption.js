@@ -7,6 +7,7 @@ const consulta = readline.createInterface({
 
 consulta.on("line", (x) => {
     consulta.on("line", (y) => {
+        
         medio = x / y
         console.log(`${medio.toFixed(3)} km/l`)
 
