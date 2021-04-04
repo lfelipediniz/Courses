@@ -6,6 +6,7 @@ const query = readline.createInterface({
 
 query.on("line", (product1) => {
     query.on("line", (product2) => {
+        
         product1 = product1.split(" ");
         product2 = product2.split(" ")
         let total1 = Number(product1[1]) * Number(product1[2]);
