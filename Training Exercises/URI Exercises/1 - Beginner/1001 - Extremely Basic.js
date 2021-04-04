@@ -10,7 +10,8 @@ cosulta.on("line", (n1) => {
 
     cosulta.on("line", (n2) => {
 
-        console.log("X = " + (Number(n1) + Number(n2)))
+        console.log("X = " + (Number(n1) + Number(n2)));
+
         cosulta.close()
     })
 })
