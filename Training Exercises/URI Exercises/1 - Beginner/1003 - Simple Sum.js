@@ -7,6 +7,7 @@ const consulta = readline.createInterface({
 
 consulta.on("line", (n1) => {
     consulta.on("line", (n2) => {
+        
         let soma = Number(n1) + Number(n2)
         console.log("SOMA = " + soma)
         
