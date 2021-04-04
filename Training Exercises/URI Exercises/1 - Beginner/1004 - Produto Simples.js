@@ -9,6 +9,7 @@ const consulta = readline.createInterface({
 
 consulta.on("line", (num1) => {
    consulta.on("line", (num2) => {
+       
         const res = num1 * num2
         console.log(`PROD = ${res}`)
 
