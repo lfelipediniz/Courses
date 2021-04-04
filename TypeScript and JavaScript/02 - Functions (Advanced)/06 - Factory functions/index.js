@@ -50,4 +50,3 @@ function personCreator(name, surname, a, p) {
   console.log(p2.imc);
   console.log(p3.imc);
   
-  
