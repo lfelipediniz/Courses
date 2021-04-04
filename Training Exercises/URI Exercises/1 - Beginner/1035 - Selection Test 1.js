@@ -1,18 +1,18 @@
 const readline = require("readline");
 
-const consulta = readline.createInterface({
+const query = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
 
-consulta.on("line", (leitura) => {
+query.on("line", (leitura) => {
 
-    intermediario = leitura.split(" ")
+    intermediary = leitura.split(" ")
 
-    A = Number(intermediario[0])
-    B = Number(intermediario[1])
-    C = Number(intermediario[2])
-    D = Number(intermediario[3])
+    A = Number(intermediary[0])
+    B = Number(intermediary[1])
+    C = Number(intermediary[2])
+    D = Number(intermediary[3])
 
       
         if(B > C && D > A && (C + D) > (A + B) && C > 0 && D > 0 && A % 2 == 0) {
@@ -22,6 +22,6 @@ consulta.on("line", (leitura) => {
 
     else { console.log("Valores nao aceitos"); }
 
-    consulta.close() 
+    query.close() 
 
 })
