@@ -1,13 +1,13 @@
 const readline = require("readline")
 
 const consulta = readline.createInterface({
+    
     input: process.stdin,
     output: process.stdout
 })
 
 consulta.on("line", (dinheiro) => {
 
-    
 
 cedula100 = 0
 cedula50 = 0
