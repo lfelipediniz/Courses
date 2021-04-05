@@ -1,4 +1,4 @@
-// ESTE PROGRAMA RECEBE DUAS VARIÁVEIS E EXIBE A SOMA DE SEUS VALORES.
+// This program receives two variables and returns the sum of their values    
 
 const readline = require("readline");
 
