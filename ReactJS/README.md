@@ -1,6 +1,6 @@
 
 <h1 align="center">
-🧠 ReactJS</h1>
+🧠 ReactJS & NextJS</h1>
 
 <p align="center">
    <img src="@readmeImages/react.png">
