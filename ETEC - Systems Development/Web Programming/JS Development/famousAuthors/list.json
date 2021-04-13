@@ -1,0 +1,32 @@
+{
+    "listOfStudents": [
+
+        {
+            "id": 1,
+            "name": "Machado de Assis",
+            "age": "69",
+            "email": "machador550@yahoo.com"
+        },
+
+        {
+            "id": 2,
+            "name": "J. K. Rowling",
+            "age": "55",
+            "email": "jkapparowling@hotmail.com"
+        },
+
+        {
+            "id": 3,
+            "name": "Stephen King",
+            "age": "73",
+            "email": "stepheeenkinh@gmail.com"
+        },
+
+        {
+            "id": 4,
+            "name": "Agatha Christie",
+            "age": "85",
+            "email": "agatha_bahia@icloud.com"
+        }
+    ]
+}
