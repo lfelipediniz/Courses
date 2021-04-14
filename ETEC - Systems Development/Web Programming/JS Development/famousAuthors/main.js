@@ -19,14 +19,14 @@ function formatData(strData) {
     let objData = JSON.parse(strData);
     let tableLine = '';
 
-    for(ls of objData['listOfStudents']) {
+    for(la of objData['listOfAuthors']) {
 
         tableLine += '<tr>' +  
         
-        '<td>' + ls['id'] + '</td>' +
-        '<td>' + ls['name'] + '</td>' +
-        '<td>' + ls['age'] + '</td>' +
-        '<td>' + ls['email'] + '</td>'
+        '<td>' + la['id'] + '</td>' +
+        '<td>' + la['name'] + '</td>' +
+        '<td>' + la['age'] + '</td>' +
+        '<td>' + la['email'] + '</td>'
         +   '</tr>'
     }
 
