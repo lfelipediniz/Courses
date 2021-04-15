@@ -19,11 +19,9 @@
 
 <em>ReactJS, NextJS, Styled-Components, Tests with Jest, Storybook, Strapi, HTML and CSS with TypeScript and JavaScript.</em>
 
-### **React Native - The Practical Guide  - taught by Academind, Maximilian Schwarzmüller**
+### **Node Formation  - taught by Guia do Programador, Victor Lima**
 
-<em>This course was completely updated and now does not only cover the latest
-version of React Native, but also includes refreshers on JavaScript
-& React.js
+<em>In this course we learn to create any web system, with Node.js and Javascript in practice, master the main technologies of the market.
 </em>
 
 ### **Ionic 4, React, GraphQL & Apollo - taught by Plínio Naves**
