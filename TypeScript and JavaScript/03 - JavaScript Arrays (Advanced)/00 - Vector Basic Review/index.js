@@ -10,7 +10,6 @@ const sliceOfArray = names.slice(0, 3);
 
 const sliceOfArray2 = names.slice(0, -1); // removing the last
 
-
 delete names[5]; // to delete the parameter of indice 2
 
 /*/ const removed = names.pop(); => remove element from array
