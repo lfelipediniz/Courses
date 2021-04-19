@@ -7,26 +7,26 @@
 
 ## The [course](https://www.udemy.com/course/ionic-react-graphql/) offers
  
-- Create applications with Ionic 4
-- Create an image gallery with Zoom feature via Swiper API
-- Use React Hooks (useState, useEffect, useCallback, useRef)
-- Integrate Ionic with React and Apollo Client
-- Consume GraphQL's API
-- Generate TypeScript typing based on Schema GraphQL with GraphQL Code Generator
-- Modify the Ionic theme
-- Good habits
-- Componentization in React
-- Implement Infinite Scroll with Apollo React Hooks
-- Working with Menus
-- Use Grid to adjust elements according to the screen size
-- Use SplitPane to make better use of available screen space
-- Build production and deploy
-- Overlay Components
+- [x] Create applications with Ionic 4
+- [x] Create an image gallery with Zoom feature via Swiper API
+- [x] Use React Hooks (useState, useEffect, useCallback, useRef)
+- [x] Integrate Ionic with React and Apollo Client
+- [x] Consume GraphQL's API
+- [x] Generate TypeScript typing based on Schema GraphQL with GraphQL Code Generator
+- [x] Modify the Ionic theme
+- [x] Good habits
+- [x] Componentization in React
+- [x] Implement Infinite Scroll with Apollo React Hooks
+- [x] Working with Menus
+- [x] Use Grid to adjust elements according to the screen size
+- [x] Use SplitPane to make better use of available screen space
+- [x] Build production and deploy
+- [x] Overlay Components
 
 ## The technologies used are
 
-- Ionic 4
-- ReactJS
-- GraphQL
-- Apollo
-- API from SpaceX
+- [x] Ionic 4
+- [x] ReactJS
+- [x] GraphQL
+- [x] Apollo
+- [x] API from SpaceX
