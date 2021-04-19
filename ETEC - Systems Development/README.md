@@ -9,8 +9,8 @@
 
 ## The focus of the [course](http://eteccamargoaranha.com.br/) is
 
-- Database
-- Web Programming
-- Mobille Programming
-- Information Security
-- Embedded Systems
+- [x] Database
+- [x] Web Programming
+- [x] Mobille Programming
+- [x] Information Security
+- [x] Embedded Systems
