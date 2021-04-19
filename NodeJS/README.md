@@ -12,11 +12,11 @@ Creating any web system, with Node.js and Javascript in practice, master the mai
  
 ## The technologies used are
 
-- NodeJS
-- ExpressJS
-- Vue JS
-- Socket IO
-- MySQL
-- MongoDB
-- TDD
-- Advanced Javascript.
+- [x] NodeJS
+- [x] ExpressJS
+- [x] Vue JS
+- [x] Socket IO
+- [x] MySQL
+- [x] MongoDB
+- [x] TDD
+- [x] Advanced Javascript.
