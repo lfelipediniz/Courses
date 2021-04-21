@@ -1,3 +1,6 @@
 let http = require("http");
 
-http.createServer().listen(8181);
+http.createServer(function(request, reply){
+
+    reply.end("<h1>Welcome to my Website!</h1>");
+}).listen(8181);
