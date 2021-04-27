@@ -24,7 +24,7 @@
 <em>In this course we learn to create any web system, with Node.js and Javascript in practice, master the main technologies of the market.
 </em>
 
-### **React Native, The Practical Guide  - Academind, Maximilian Schwarzmüller*
+### **React Native, The Practical Guide  - Academind, Maximilian Schwarzmüller**
 
 <em>Use React Native and your React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux </em>
 
