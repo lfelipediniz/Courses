@@ -24,8 +24,8 @@
 <em>In this course we learn to create any web system, with Node.js and Javascript in practice, master the main technologies of the market.
 </em>
 
-### **Ionic 4, React, GraphQL & Apollo - taught by Plínio Naves**
+### **React Native, The Practical Guide  - Academind, Maximilian Schwarzmüller*
 
-<em>Integrate React with Ionic, use Theme, Cards, Modal, Routes and Navigation, Grid, Menu and create an image gallery</em>
+<em>Use React Native and your React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux </em>
 
 
