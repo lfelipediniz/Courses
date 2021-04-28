@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { render } from "@testing-library/react";
+import { Component } from "react";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    counter: 0,
+
+    posts: []
+  };
+
+  componentDidMount() { 
+  }
+
+  render() {
+    const { posts, counter } = this.state;
+
+    return (
+      <div className="App">
+        <h1>{counter}</h1>
+        {posts.map((post) => (
+          <div key={post.id}>
+            <h1>{post.title}</h1>
+            {/* react needs a key to more efficiently optimize the code */}
+            <p>{post.body}</p>
+          </div>
+        ))}
+      </div>
+    );
+  }
 }
 
 export default App;
