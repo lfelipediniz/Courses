@@ -8,32 +8,57 @@ import {
   Dimensions,
   View,
 } from "react-native";
-import { Feather } from "@expo/vector-icons";
-import wateringImg from "../assets/watering.png";
+import risumIconImg from "../assets/risumIcon.png";
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
 import { useNavigation } from "@react-navigation/core";
 
 export function Welcome() {
   const navigation = useNavigation(); // go to next screen
-  function handleStart() { 
-    navigation.navigate("UserIdentification");
+  function handleRegister() {
+    navigation.navigate("RegisterStg1");
   }
+  function handleLogin() {
+    navigation.navigate("Login");
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
-        <Text style={styles.title}>Manage {"\n"} your plants easily</Text>
+        <Image
+          source={risumIconImg}
+          style={styles.image}
+          resizeMode="contain"
+        />
+        <Text style={styles.title}>Risum</Text>
 
-        <Image source={wateringImg} style={styles.image} resizeMode="contain" />
+        <View style={styles.btnBox}>
+          <TouchableOpacity
+            style={[styles.button, styles.singUpBtn]}
+            activeOpacity={0.7}
+            onPress={handleRegister}
+          >
+            <Text>Criar {"\n"} Conta</Text>
+          </TouchableOpacity>
 
-        <Text style={styles.subtitle}>
-          Don't forget to water your plants anymore. We take care to remind you
-          whenever you need
-        </Text>
-
-        <TouchableOpacity style={styles.button} activeOpacity={0.7} onPress={handleStart}>
-          <Feather name="chevron-right" style={styles.buttonIcon} />
-        </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.button, styles.singInBtn]}
+            activeOpacity={0.7}
+            onPress={handleLogin}
+          >
+            <Text>Login</Text>
+          </TouchableOpacity>
+        </View>
+        <View style={styles.guestBox}>
+          <TouchableOpacity
+            style={styles.guestBtn}
+            activeOpacity={0.7}
+            onPress={handleLogin}
+          >
+            <Text>Entrar como Convidado</Text>
+          </TouchableOpacity>
+        </View>
+        <Text style={styles.footer}>Bem vindo ao Risum!</Text>
       </View>
     </SafeAreaView>
   );
@@ -48,37 +73,47 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-around",
     paddingHorizontal: 20,
+    backgroundColor: colors.background,
   },
   title: {
-    fontSize: 32,
+    fontSize: 50,
     fontWeight: "bold",
     textAlign: "center",
-    color: colors.heading,
-    marginTop: 38,
-    fontFamily: fonts.heading,
-    lineHeight: 34,
+    color: colors.green,
+    marginTop: -80,
   },
-  subtitle: {
-    textAlign: "center",
-    fontSize: 18,
-    paddingHorizontal: 28,
-    color: colors.heading,
-    fontFamily: fonts.text,
-  },
+  footer: {},
   image: {
-    height: Dimensions.get("window").width * 0.7,
+    height: Dimensions.get("window").width * 0.9,
   },
   button: {
-    backgroundColor: colors.green,
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 16,
-    marginBottom: 10,
-    height: 56,
-    width: 56,
+    borderRadius: 7.3,
+    height: 90,
+    width: "100%",
+    flex: 1,
   },
-  buttonIcon: {
-    color: colors.white,
-    fontSize: 32,
+  singUpBtn: {
+    backgroundColor: colors.purple,
+    marginRight: 20,
+  },
+  singInBtn: {
+    backgroundColor: colors.green,
+  },
+  btnBox: {
+    flex: 1,
+    width: "97%",
+    flexDirection: "row",
+    marginTop: "20%",
+  },
+  guestBtn: {
+    height: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: 20,
+  },
+  guestBox: {
+    width: "90%",
   },
 });
