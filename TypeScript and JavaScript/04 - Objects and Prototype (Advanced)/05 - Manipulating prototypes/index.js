@@ -1,6 +1,6 @@
 function Product(name, price) {
     this.name = name;
-    this.price - price;
+    this.price = price;
 }
 
 Product.prototype.discount = function(percentage) {
@@ -19,11 +19,8 @@ const p2 = {
     price: 15
 };
 
-//Object.setPrototypeOf(p2, Product.prototype)
+Object.setPrototypeOf(p2, Product.prototype) // linking the object's prototype
 
 p2.increase(10);
-
-console.log(p1);
-console.log(p2);
 
 
