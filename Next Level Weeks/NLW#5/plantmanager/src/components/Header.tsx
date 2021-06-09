@@ -1,11 +1,10 @@
 import React from "react";
-import { StyleSheet, Text, Image, View } from "react-native";
-import { getStatusBarHeight } from "react-native-iphone-x-helper";
+import { StyleSheet, View, Text, Image } from "react-native";
+import userImg from "../assets/userImg.png";
 import colors from "../styles/colors";
-import fonts from "../styles/fonts";
 
-import userImg from "../assets/ryuk.png";
-import { color } from "react-native-reanimated";
+import { getStatusBarHeight } from "react-native-iphone-x-helper";
+import fonts from "../styles/fonts";
 
 export function Header() {
   return (
@@ -14,6 +13,7 @@ export function Header() {
         <Text style={styles.greeting}>Hi,</Text>
         <Text style={styles.userName}>Luiz Felipe</Text>
       </View>
+
       <Image source={userImg} style={styles.image} />
     </View>
   );
@@ -26,6 +26,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: 20,
+
+    // Ajuste para a tela estranha do iPhone X
     marginTop: getStatusBarHeight(),
   },
   image: {
@@ -42,6 +44,5 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontFamily: fonts.heading,
     color: colors.heading,
-    lineHeight: 40,
   },
 });

@@ -1,45 +1,42 @@
 import React from "react";
-import { StyleSheet, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { RectButton, RectButtonProps } from "react-native-gesture-handler";
-
 import colors from "../styles/colors";
 import fonts from "../styles/fonts";
 
-interface EviromentButtonProps extends RectButtonProps {
+interface EnviromentButtonProps extends RectButtonProps {
   title: string;
-  active?: boolean;
+  active?: boolean; // Propriedade não obrigatória
 }
 
-export function EviromentButton({
+export function EnviromentButton({
   title,
   active = false,
   ...rest
-}: EviromentButtonProps) {
+}: EnviromentButtonProps) {
   return (
-    <RectButton style={[
-        styles.container,
-        active && styles.coitainerActive
-        ]} {...rest}>
-
-      <Text style={[
-          styles.text,
-          active && styles.textActive
-          ]}>{title}</Text>
-    </RectButton>
+    <View>
+      <RectButton
+        style={[styles.container, active && styles.containerActive]}
+        {...rest}
+      >
+        <Text style={[styles.text, active && styles.textActive]}>{title}</Text>
+      </RectButton>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    borderStartColor: colors.shape,
-    width: 76,
+    backgroundColor: colors.shape,
     height: 40,
+    width: 76,
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 12,
-    marginRight: 5
+    marginHorizontal: 5,
   },
-  coitainerActive: {
+  containerActive: {
     backgroundColor: colors.green_light,
   },
   text: {
@@ -47,7 +44,7 @@ const styles = StyleSheet.create({
     fontFamily: fonts.text,
   },
   textActive: {
-    fontFamily: fonts.heading,
     color: colors.green_dark,
+    fontFamily: fonts.heading,
   },
 });

@@ -25,7 +25,9 @@ export function Welcome() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
-        <Text style={styles.title}>Manage{"\n"}your plants easily</Text>
+        <Text style={styles.title}>
+          Manage{"\n"}your plants easily
+        </Text>
 
         <Image source={wateringImg} style={styles.image} resizeMode="contain" />
 
@@ -54,6 +56,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
 
+    // IMPORTANTE! Extremidades não se prendem às bordas
     justifyContent: "space-around",
     paddingHorizontal: 20,
   },

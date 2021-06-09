@@ -54,7 +54,7 @@ export function UserIdentification() {
                 <Text style={styles.emoji}>{isFilled ? "😄" : "😀"}</Text>
 
                 <Text style={styles.title}>
-                  How would you like{"\n"}to be called?
+                How would you like{"\n"}to be called?
                 </Text>
               </View>
 

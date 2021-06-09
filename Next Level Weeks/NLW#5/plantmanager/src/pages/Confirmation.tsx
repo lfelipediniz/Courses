@@ -13,6 +13,7 @@ export function Confirmation() {
   function handleMoveOn() {
     navigation.navigate("PlantSelect");
   }
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
@@ -24,7 +25,7 @@ export function Confirmation() {
           Now let's start taking care of your plants very carefully
         </Text>
         <View style={styles.footer}>
-          <Button title="Let's go" onPress={handleMoveOn} />
+          <Button title="Começar" onPress={handleMoveOn} />
         </View>
       </View>
     </SafeAreaView>
