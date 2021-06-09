@@ -1,5 +1,4 @@
 // This program receives two variables and returns the sum of their values    
-
 const readline = require("readline");
 
 const cosulta = readline.createInterface({
