@@ -1,4 +1,3 @@
-import { useNavigation } from "@react-navigation/core";
 import React, { useState } from "react";
 import {
   SafeAreaView,
@@ -10,7 +9,13 @@ import {
   TouchableWithoutFeedback,
   Platform,
   Keyboard,
+  Alert
 } from "react-native";
+
+import { useNavigation } from "@react-navigation/core";
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+
 
 import { Button } from "../components/Button";
 
@@ -37,7 +42,11 @@ export function UserIdentification() {
     setName(value);
   }
 
-  function handleSubmit() {
+  async function handleSubmit() {
+    if (!name) return Alert.alert('Tell me what should I call you 😥');
+
+    await AsyncStorage.setItem('@plantmanager:user', name);
+    // use await to ensure the man is saved on the device
     navigation.navigate("Confirmation");
   }
 
@@ -54,7 +63,7 @@ export function UserIdentification() {
                 <Text style={styles.emoji}>{isFilled ? "😄" : "😀"}</Text>
 
                 <Text style={styles.title}>
-                How would you like{"\n"}to be called?
+                  How would you like{"\n"}to be called?
                 </Text>
               </View>
 
