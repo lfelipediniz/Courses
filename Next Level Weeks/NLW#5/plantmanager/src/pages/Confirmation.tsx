@@ -8,10 +8,10 @@ import colors from "../styles/colors";
 import fonts from "../styles/fonts";
 
 export function Confirmation() {
-  const navigation = useNavigation();
+  const navigation = useNavigation()
 
-  function handleMoveOn() {
-    navigation.navigate("PlantSelect");
+  function handleMoveOn () {
+    navigation.navigate('PlantSelect')
   }
 
   return (
@@ -25,7 +25,7 @@ export function Confirmation() {
           Now let's start taking care of your plants very carefully
         </Text>
         <View style={styles.footer}>
-          <Button title="Começar" onPress={handleMoveOn} />
+          <Button title="Let's go!" onPress={handleMoveOn} />
         </View>
       </View>
     </SafeAreaView>

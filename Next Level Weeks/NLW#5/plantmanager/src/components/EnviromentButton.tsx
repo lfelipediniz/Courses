@@ -6,7 +6,7 @@ import fonts from "../styles/fonts";
 
 interface EnviromentButtonProps extends RectButtonProps {
   title: string;
-  active?: boolean; // Propriedade não obrigatória
+  active?: boolean; // non-mandatory prop
 }
 
 export function EnviromentButton({

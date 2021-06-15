@@ -1,29 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, View, Text, Image, AsyncStorage } from "react-native";
+import { StyleSheet, View, Text, Image } from "react-native";
 import userImg from "../assets/userImg.png";
 import colors from "../styles/colors";
 
 import { getStatusBarHeight } from "react-native-iphone-x-helper";
 import fonts from "../styles/fonts";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export function Header() {
   const [userName, setUserName] = useState<string>();
 
   useEffect(() => {
     async function loadStorageUserName() {
-      const user = await AsyncStorage.getItem('@plantmanager:user');
-      setUserName(user || '');
+      const user = await AsyncStorage.getItem("@plantmanager:user");
+      setUserName(user || '')
     }
 
-    loadStorageUserName()
-
-  }, [userName]); // When userName changes userEffect reloads
+    loadStorageUserName();
+  }, []);
 
   return (
     <View style={styles.container}>
       <View>
-        <Text style={styles.greeting}>Hi,</Text>
-        <Text style={styles.userName}>{userName}</Text>
+        <Text style={styles.greeting}>Olá,</Text>
+        <Text style={styles.userName}>{ userName }</Text>
       </View>
 
       <Image source={userImg} style={styles.image} />
@@ -39,8 +39,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 20,
 
-    // Ajuste para a tela estranha do iPhone X
-    marginTop: getStatusBarHeight(),
+    marginTop: getStatusBarHeight(), // fit for iPhone screen
   },
   image: {
     width: 70,

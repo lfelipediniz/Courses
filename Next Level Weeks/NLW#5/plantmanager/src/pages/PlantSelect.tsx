@@ -86,9 +86,8 @@ export function PlantSelect() {
   }
 
   function handlePlantSelect(plant: PlantProps) {
-    navigation.navigate('PlantSave', { plant });
+    navigation.navigate('PlantSave', {plant});
   }
-
 
   useEffect(() => {
     async function fetchEnviroment() {
@@ -144,13 +143,10 @@ export function PlantSelect() {
         <FlatList
           data={filteredPlants}
           keyExtractor={(item) => String(item.id)}
-          renderItem={({ item }) =>
-            <PlantCardPrimary data={item}
-              onPress={() => handlePlantSelect(item)}
-            />
 
-
-          }
+          renderItem={({ item }) => <PlantCardPrimary
+          data={item}
+          onPress={() => handlePlantSelect(item)} />}
           showsVerticalScrollIndicator={false}
           numColumns={2}
           onEndReachedThreshold={0.1}

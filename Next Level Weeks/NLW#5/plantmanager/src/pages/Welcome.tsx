@@ -55,8 +55,6 @@ const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
     alignItems: "center",
-
-    // IMPORTANTE! Extremidades não se prendem às bordas
     justifyContent: "space-around",
     paddingHorizontal: 20,
   },
