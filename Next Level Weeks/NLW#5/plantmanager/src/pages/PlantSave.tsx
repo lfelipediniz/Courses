@@ -127,5 +127,5 @@ const styles = StyleSheet.create({
     color: colors.heading,
     fontSize: 12,
     marginBottom: 5,
-  },
+  }, 
 });
